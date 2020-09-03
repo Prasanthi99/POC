@@ -16,7 +16,14 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Scripts\Controllers\" />
+    <Folder Include="Scripts\Modules\" />
     <Folder Include="Scripts\Services\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\scripts\app.js" />
+    <None Include="wwwroot\scripts\EmployeeCtrl.js" />
   </ItemGroup>
 
 </Project>
